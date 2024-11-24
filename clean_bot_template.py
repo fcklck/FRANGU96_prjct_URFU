@@ -1,4 +1,43 @@
 import os
+import json
+import random
+from telegram import Update, InputMediaPhoto
+from telegram.ext import Updater, CommandHandler, CallbackContext
+import logging
+import os
+
+from dotenv import load_dotenv
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+load_dotenv()
+TOKEN = os.getenv('BOT_TOKEN')
+with open('cars.json', 'r', encoding='utf-8') as f:
+    cars_data = json.load(f)
+    from telegram.ext import CommandHandler, MessageHandler, Filters
+
+def start(update: Update, context: CallbackContext):
+    update.message.reply_text('Привет! Отправь команду /car, чтобы получить интересный автомобиль.')
+
+def send_random_car(update: Update, context: CallbackContext):
+    car = random.choice(cars_data)
+    message = f"*{car['name']}*\n{car['description']}"
+    photo_url = car['image_url']
+    update.message.reply_photo(photo=photo_url, caption=message, parse_mode='Markdown')
+
+def unknown_command(update: Update, context: CallbackContext):
+    update.message.reply_text('Извините, я не знаю такой команды. Используйте /car, чтобы получить интересный автомобиль.')
+def main():
+    updater = Updater(TOKEN, use_context=True)
+    dp = updater.dispatcher
+
+    dp.add_handler(CommandHandler('start', start))
+    dp.add_handler(CommandHandler('car', send_random_car))
+    dp.add_handler(MessageHandler(Filters.command, unknown_command))
+
+    updater.start_polling()
+    updater.idle()
+
 
 from telegram import Update, BotCommand
 from telegram.ext import (
