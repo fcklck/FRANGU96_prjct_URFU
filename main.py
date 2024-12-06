@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Создание и настройка FileHandler
-file_handler = logging.FileHandler('bot.log')
+file_handler = logging.FileHandler('./data/bot.log')
 file_handler.setLevel(logging.INFO)
 
 # Создание форматтера и добавление его к FileHandler
