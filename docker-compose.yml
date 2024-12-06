@@ -1,6 +1,7 @@
+version: '3.8'
 services:
   pythontelegrambottemplate:
-    #image: ghcr.io/<ваш профиль гит хаб>/<назввание репозитория>
+    #image: ghcr.io/<fcklck>/<FRANGU96_prjct_URFU>
     image: pythontelegrambottemplate
     build:
       context: .
@@ -9,9 +10,6 @@ services:
       TZ: "${TZ}"
       BOT_TOKEN: "${BOT_TOKEN}"
       PYTHONPATH: "${PYTHONPATH}"
-    # либо просто
-    # env_file:
-    #   - .env
     volumes:
-      - ./data:/app/data
+      - ./data:/app/data  
     restart: unless-stopped
