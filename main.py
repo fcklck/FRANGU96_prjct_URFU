@@ -15,11 +15,23 @@ from telegram.ext import (
 )
 from dotenv import load_dotenv
 
+# Настройка базового логирования для консоли
 logging.basicConfig(
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    level=logging.INFO
 )
 logger = logging.getLogger(__name__)
 
+# Создание и настройка FileHandler
+file_handler = logging.FileHandler('bot.log')
+file_handler.setLevel(logging.INFO)
+
+# Создание форматтера и добавление его к FileHandler
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+file_handler.setFormatter(formatter)
+
+# Добавление FileHandler к логгеру
+logger.addHandler(file_handler)
 CHOOSING = range(1)
 
 reply_keyboard = [
