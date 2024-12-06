@@ -63,17 +63,17 @@ cars = {
         {
             "name": "Ford Mustang 1965",
             "description": "Икона американского автомобилестроения середины 60-х годов.",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/1965_Ford_Mustang_coupe_%28cropped%29.jpg"
+            "image_url": "https://avatars.mds.yandex.net/i?id=02176df9109cc92c79fedbfe74cb21654b2d0e15-9221733-images-thumbs&n=13"
         },
         {
             "name": "Chevrolet Camaro 1969",
             "description": "Классический маслкар с мощным двигателем и узнаваемым дизайном.",
-            "image_url": "https://cdn.dealeraccelerate.com/vanguard/1/18317/107841/1920x1440/1969-chevrolet-camaro-ss.jpg"
+            "image_url": "https://avatars.mds.yandex.net/i?id=a2418c7a865e3208e20b0aa5306fd088b4db5047-7765754-images-thumbs&n=13"
         },
         {
             "name": "Volkswagen Beetle",
             "description": "Легендарный народный автомобиль, произведённый в Германии.",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/VW_Beetle-IMG_0508.jpg"
+            "image_url": "https://avatars.mds.yandex.net/i?id=744052dbf7d9095aa88595c2de6d6654f5d6bd7c-4373887-images-thumbs&n=13"
         },
     ],
     "Внедорожники": [
