@@ -46,51 +46,51 @@ cars = {
         {
             "name": "Ferrari F8 Tributo",
             "description": "Итальянский суперкар с двигателем V8 и мощностью 720 л.с.",
-            "image_url": "https://www.ferrari.com/images/auto/FS_F8_Tributo_Motore_V8.jpg"
+            "image_url": "https://getmecar.ru/wp-content/uploads/2023/11/20-2-3.webp"
         },
         {
             "name": "Porsche 911 GT3",
             "description": "Легендарный спортивный автомобиль с высокими динамическими характеристиками.",
-            "image_url": "https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/thumbwhite/189bf86d-e3ab-11eb-80cd-005056bbdc38;sP;twebp/porsche-thumbwhite.webp"
+            "image_url": "https://avatars.mds.yandex.net/i?id=8e08adeb04b070a8440bcd27b482c159_l-4452791-images-thumbs&n=13"
         },
         {
             "name": "Lamborghini Aventador",
             "description": "Итальянский суперкар с двигателем V12 и уникальным дизайном.",
-            "image_url": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/aventador/aventador-s/2021/06_24/gallery/aventador-s-gallery-01.jpg"
+            "image_url": "https://autopeople.ru/news/wp-content/uploads/lamborghini-aventador-lp700-4-1781-1024x768.jpg"
         },
     ],
     "Классические": [
         {
             "name": "Ford Mustang 1965",
             "description": "Икона американского автомобилестроения середины 60-х годов.",
-            "image_url": "https://avatars.mds.yandex.net/i?id=02176df9109cc92c79fedbfe74cb21654b2d0e15-9221733-images-thumbs&n=13"
+            "image_url": "https://a.d-cd.net/884b86s-960.jpg"
         },
         {
             "name": "Chevrolet Camaro 1969",
             "description": "Классический маслкар с мощным двигателем и узнаваемым дизайном.",
-            "image_url": "https://avatars.mds.yandex.net/i?id=a2418c7a865e3208e20b0aa5306fd088b4db5047-7765754-images-thumbs&n=13"
+            "image_url": "https://w0.peakpx.com/wallpaper/1013/333/HD-wallpaper-1969-camaro-rs-ss-big-block-silver-classic-gm-bowtie-muscle.jpg"
         },
         {
             "name": "Volkswagen Beetle",
             "description": "Легендарный народный автомобиль, произведённый в Германии.",
-            "image_url": "https://avatars.mds.yandex.net/i?id=744052dbf7d9095aa88595c2de6d6654f5d6bd7c-4373887-images-thumbs&n=13"
+            "image_url": "https://i.pinimg.com/originals/ef/b0/57/efb057b14c8186635a8d894d6a64e0a1.png"
         },
     ],
     "Внедорожники": [
         {
             "name": "Land Rover Defender",
             "description": "Легендарный британский внедорожник с превосходными внедорожными качествами.",
-            "image_url": "https://www.landrover.ru/Images/DEF_90_20MY_EXT_LOC01_JLR_CGI_09_RH_DynamicAngle_LR_RUP_3840x2160-v1_tcm296-694296.jpg"
+            "image_url": "https://avatars.dzeninfra.ru/get-zen_doc/1581919/pub_60f8e734ec3b0a41ed1b8f5d_60f8eea125ddc562e5fccd9a/scale_1200"
         },
         {
             "name": "Jeep Wrangler",
             "description": "Американский внедорожник с богатой историей и отличной проходимостью.",
-            "image_url": "https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/2021/wrangler/vlp/gallery/exterior/wrangler-vlp-gallery-exterior-1.jpg"
+            "image_url": "https://a.d-cd.net/YvQAAgDTG-A-1920.jpg"
         },
         {
             "name": "Toyota Land Cruiser",
             "description": "Надёжный и прочный японский внедорожник, популярный по всему миру.",
-            "image_url": "https://www.toyota.com/imgix/responsive/images/mlp/colorizer/2021/landcruiser/1G3/1.png"
+            "image_url": "https://avatars.mds.yandex.net/get-autoru-vos/2172109/3cde3307b0d0c0aae9edafce586393b9/1200x900"
         },
     ],
 }
